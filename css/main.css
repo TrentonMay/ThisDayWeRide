@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: Cabin;
+    src: url("../fonts/Cabin-Regular.ttf");
+}
+@font-face {
+    font-family: Josefin Sans;
+    src: url("../fonts/JosefinSans-Thin.ttf");
+}
+/*------------Body Styles-------------------*/
+body{
+    padding: 0;
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffb39+0,252928+34 */
+    background: #fffb39; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fffb39 0%, #252928 34%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fffb39 0%,#252928 34%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fffb39 0%,#252928 34%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffb39', endColorstr='#252928',GradientType=0 ); /* IE6-9 */
+}
+footer{
+    margin-top: 1%;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+h3{
+    font-family: "Cabin", sans-serif;
+    color: white;
+}
+p{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.dark-head{
+    color: #252928;
+}
+/*------------Nav Styles-------------------*/
+.logo{
+    margin-top: 0;
+}
+.banner{
+    background-image: url("../assets/Banners/home.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.banner img{
+    margin: 2% auto;
+}
+.banner-v2{
+    background-image: url("../assets/Banners/rides.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.banner-v2 img{
+    margin: 0;
+}
+.banner-v3{
+    background-image: url("../assets/Banners/bikes.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.banner-v3 img{
+    margin: 0;
+}
+.banner-v4 img{
+    margin: 0;
+}
+
+.menu{
+    margin-left: 25%;
+    padding: 0;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul{
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    text-align: center;
+    padding: 2.5%;
+    border: solid .01em #252928;
+    background-color: #ff2f24;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+}
+.menuV2 {
+    margin-left: 8%;
+}
+.menuV3{
+    margin-left: 15%;
+}
+.menuV4{
+    margin-left: 31%;
+}
+.menuV5{
+    margin-left: 8%;
+}
+
+/*------------Carousel Styles-------------------*/
+.carousel{
+    margin: 5% auto;
+}
+/*------------Landing Page Styles-------------------*/
+.home-rides{
+    padding: 0;
+}
+.home-bikes{
+    padding: 0;
+}
+.home-rides li{
+    border: none;
+    margin-top: 2%;
+}
+.home-bikes li{
+    margin-top: 2%;
+}
+/*------------Form Styles-------------------*/
+form{
+    font-family: "Roboto", sans-serif;
+}
+.form-style{
+    margin-left: 3%;
+    font-family: "Roboto", sans-serif;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    background-color: white;
+}
+.form-style input, .form-style button{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.form-pad form{
+    padding-bottom: 70%;
+}
+.form-style-v2{
+    padding-bottom: 5%;
+}
+#statelabel{
+    color: white;
+    font-size: 1.5em;
+}
+.search{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.submit{
+    color: white;
+}
+.create{
+    color: white;
+    background-color: #2196f3;
+}
+.bike-share{
+    margin-top: 13%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+.share{
+    margin: 0 auto;
+    background-color: #2196f3;
+    color: white;
+}
+.form1-margin{
+    margin-top: 4%;
+}
+.sign-in{
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+.border-right{
+    border-right: solid white .1em;
+    -webkit-border-right: solid white .1em;
+    -moz-border-right: solid white .1em;
+}
+/*------------User Content Styles-------------------*/
+.user-cont h3{
+    text-align: center;
+}
+.user-cont li{
+    margin-top: 3%;
+}
+.user-cont span{
+    color: white;
+}
+.user-style{
+    color: black;
+    text-align: center;
+    padding: 1%;
+    border-right: solid #252928 .1em;
+}
+.users-row{
+    padding: 0;
+    display: table;
+    background-color: white;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.user-style p, .user-style span{
+    color: #252928;
+}
+.user-style:last-child{
+    border: none;
+}
