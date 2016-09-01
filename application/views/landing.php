@@ -15,10 +15,10 @@
     <img src="<?php echo base_url();?>assets/Banners/logo.png" class="img-responsive">
     <div class="container col-lg-offset-1 col-lg-6 col-md-6 col-sm-6 menu">
         <ul class="container col-lg-12 col-md-12 col-sm-12">
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Home</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Sign In</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Rides</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Bikes</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/homeLink'); ?>">Home</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/loginLink'); ?>">Sign In</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/ridesLink'); ?>">Rides</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/bikesLink'); ?>">Bikes</a></li>
         </ul>
     </div>
 </div>
@@ -97,10 +97,10 @@
 <footer class="container col-lg-12 col-md-12 col-sm-12">
     <div class="container col-lg-12 col-md-12 col-sm-12">
         <ul class="container-fluid">
-            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-1"><img class="img-responsive img-rounded" src="assets/tools/Google-plus.png"></li>
-            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="assets/tools/Facebook.png"></li>
-            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="assets/tools/Twitter.png"></li>
-            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="assets/tools/Reddit.png"></li>
+            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-1"><img class="img-responsive img-rounded" src="<?php echo base_url() ?>assets/tools/Google-plus.png"></li>
+            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="<?php echo base_url() ?>assets/tools/Facebook.png"></li>
+            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="<?php echo base_url() ?>assets/tools/Twitter.png"></li>
+            <li class="col-lg-1 col-md-1 col-sm-1 col-lg-offset-2"><img class="img-responsive img-rounded" src="<?php echo base_url() ?>assets/tools/Reddit.png"></li>
         </ul>
     </div>
 </footer>
