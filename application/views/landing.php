@@ -15,10 +15,10 @@
     <img src="<?php echo base_url();?>assets/Banners/logo.png" class="img-responsive">
     <div class="container col-lg-offset-1 col-lg-6 col-md-6 col-sm-6 menu">
         <ul class="container col-lg-12 col-md-12 col-sm-12">
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/homeLink'); ?>">Home</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/loginLink'); ?>">Sign In</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/ridesLink'); ?>">Rides</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url('links/bikesLink'); ?>">Bikes</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/homeLink") ?>">Home</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/loginLink") ?>">Sign In</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("Rides/index")?>">Rides</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/bikesLink")?>">Bikes</a></li>
         </ul>
     </div>
 </div>
@@ -35,27 +35,27 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="assets/Rides/Ride1.jpg" alt="Rides">
+                <img src="<?php echo base_url();?>assets/Rides/Ride1.jpg" alt="Rides">
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
-                <img src="assets/Rides/Ride2.jpg" alt="Rides">
+                <img src="<?php echo base_url();?>assets/Rides/Ride2.jpg" alt="Rides">
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
-                <img src="assets/Rides/Ride3.jpg" alt="Rides">
+                <img src="<?php echo base_url();?>assets/Rides/Ride3.jpg" alt="Rides">
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
-                <img src="assets/Rides/Ride4.jpg" alt="Rides">
+                <img src="<?php echo base_url();?>assets/Rides/Ride4.jpg" alt="Rides">
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
-                <img src="assets/Rides/Ride5.jpg" alt="Rides">
+                <img src="<?php echo base_url();?>assets/Rides/Ride5.jpg" alt="Rides">
                 <div class="carousel-caption">
                 </div>
             </div>
@@ -76,20 +76,20 @@
     <div class="container col-lg-5 col-md-5 col-sm-12 home-rides col-lg-offset-1">
         <h3>Latest Motorcycle Rides</h3>
         <ul class="container-fluid">
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Rides/Ride1.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Rides/Ride2.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Rides/Ride5.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Rides/Ride6.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Rides/Ride1.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Rides/Ride2.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Rides/Ride5.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Rides/Ride6.jpg"></li>
         </ul>
     </div>
 
     <div class="container col-lg-5 col-md-5 col-sm-12 home-bikes">
         <h3>Latest Shared Bikes</h3>
         <ul class="container-fluid">
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Bikes/Bike1.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Bikes/Bike2.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Bikes/Bike3.jpg"></li>
-            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="assets/Bikes/Bike4.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Bikes/Bike1.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Bikes/Bike2.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Bikes/Bike3.jpg"></li>
+            <li class="col-lg-6"><img class="img-responsive img-thumbnail" src="<?php echo base_url();?>assets/Bikes/Bike4.jpg"></li>
         </ul>
     </div>
 </div>

@@ -15,9 +15,9 @@
     <img src="<?php echo base_url();?>assets/Banners/logo.png" class="img-responsive">
     <div class="container col-lg-offset-1 col-lg-6 col-md-6 col-sm-6 menu menuV4">
         <ul class="container col-lg-12 col-md-12 col-sm-12">
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Home</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Rides</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Bikes</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/homeLink") ?>">Home</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("Rides/index")?>">Rides</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/bikesLink")?>">Bikes</a></li>
         </ul>
     </div>
 </div>

@@ -9,7 +9,7 @@ class Links extends CI_Controller{
         $this->load->database();
     }
     function homeLink(){
-        $this->load->view('landing.php');
+        $this->load->view('landing');
     }
     function loginLink(){
         $this->load->view('login');

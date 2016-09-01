@@ -15,10 +15,10 @@
     <img src="<?php echo base_url();?>assets/Banners/logo.png" class="img-responsive col-lg-2 col-md-2 col-sm-2 left logo">
     <div class="container col-lg-6 col-md-6 col-sm-6 menu menuV5">
         <ul class="container col-lg-12 col-md-12 col-sm-12">
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Home</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Rides</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Bikes</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#">Users</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/homeLink") ?>">Home</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/loginLink") ?>">Sign In</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("Rides/index")?>">Rides</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/bikesLink")?>">Bikes</a></li>
         </ul>
     </div>
     <h3 class="right text-center dark-head">Welcome Admin</h3>

@@ -16,10 +16,10 @@
     <img src="<?php echo base_url();?>assets/Banners/logo.png" class="img-responsive col-lg-2 col-md-2 col-sm-2 left logo">
     <div class="container col-lg-6 col-md-6 col-sm-6 menu menuV2">
         <ul class="container col-lg-12 col-md-12 col-sm-12">
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url("links/homeLink") ?>">Home</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url("links/loginLink") ?>">Sign In</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url("Rides/index")?>">Rides</a></li>
-            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php site_url("links/bikesLink")?>">Bikes</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/homeLink") ?>">Home</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/loginLink") ?>">Sign In</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("Rides/index")?>">Rides</a></li>
+            <li class="col-lg-3 col-md-3 col-sm-3"><a href="<?php echo site_url("links/bikesLink")?>">Bikes</a></li>
         </ul>
     </div>
     <div class="container col-lg-12 col-md-12 col-sm-12 search">
@@ -94,10 +94,10 @@
             foreach($ridesArray as $out){
                 echo "<li>";
                 echo "<h3>".$out['title']."</h3>";
-                echo "<img class='img-responsive img-thumbnail' src=". base_url(). "uploads/".$out['image']."/>";
+                echo "<img class='img-responsive img-thumbnail' src=". base_url(). "userRides/".$out['image']."/>";
                 echo "<p>".$out['date']." At ".$out['ridetime']. "</p>";
                 echo "<p>Starts At ".$out['StartAddress']." ".$out['StartCity']." ".$out['StartZip']." "."</p>";
-                echo "<p>Ends At ".$out['EndCity']." ".$out['EndZipode']."</p>";
+                echo "<p>Ends At ".$out['EndCity']." ".$out['EndZipcode']."</p>";
                 echo "<span class='glyphicon glyphicon-plus'></span>";
                 echo "</li>";
             }
