@@ -22,6 +22,10 @@ body{
     background: linear-gradient(to bottom,  #fffb39 0%,#252928 34%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffb39', endColorstr='#252928',GradientType=0 ); /* IE6-9 */
 }
+.carousel-inner{
+    width: 100%;
+    max-height: 490px !important;
+}
 footer{
     margin-top: 1%;
     padding: 0;
@@ -56,6 +60,7 @@ p{
     padding: 0;
 }
 .banner img{
+    width: 35%;
     margin: 2% auto;
 }
 .banner-v2{
@@ -83,7 +88,7 @@ p{
 }
 
 .menu{
-    margin-left: 25%;
+
     padding: 0;
     color: white;
 }
@@ -104,18 +109,7 @@ p{
     font-size: 1.5em;
     font-family: "Roboto", sans-serif;
 }
-.menuV2 {
-    margin-left: 8%;
-}
-.menuV3{
-    margin-left: 15%;
-}
-.menuV4{
-    margin-left: 31%;
-}
-.menuV5{
-    margin-left: 8%;
-}
+
 
 /*------------Carousel Styles-------------------*/
 .carousel{
@@ -140,7 +134,6 @@ form{
     font-family: "Roboto", sans-serif;
 }
 .form-style{
-    margin-left: 3%;
     font-family: "Roboto", sans-serif;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -153,7 +146,7 @@ form{
     -webkit-border-radius: 10px;
 }
 .form-pad form{
-    padding-bottom: 70%;
+    padding-bottom: 65%;
 }
 .form-style-v2{
     padding-bottom: 5%;
