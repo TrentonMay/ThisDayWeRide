@@ -49,7 +49,7 @@
 
 
 <div class="container col-lg-7 col-md-7 col-sm-12 col-xs-12 user-cont right">
-    <ul class="container col-lg-10 col-md-10 col-sm-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0">
+    <ul class="container col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0">
         <?php
         if(isset($bikesArray)){
             foreach($bikesArray as $out){
